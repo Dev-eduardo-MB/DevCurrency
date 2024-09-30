@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Color body*/
+  --color-bg:#302e38;
+  /* Colors for page home*/
+  --color-lineTable: #39324a;
+  --color-text:#ffffff;
+  --color-bgBtn: #30beff;
+  /* Colors for page detail*/
+  --color-bgDetail:#2c2a2a;
+  --color-textDetail:#eae3e3;
+
+}
+
+
+
+body{
+  background-color: var(--color-bg);
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+button{
+  cursor: pointer;
+  border:0;
+}
+
+a{
+  text-decoration: none;
+  color:var(--color-text);
+}

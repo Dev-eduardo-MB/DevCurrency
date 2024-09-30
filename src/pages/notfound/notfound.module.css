@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+
+}
+
+.msgNotFound {
+    color: var(--color-text);
+}
